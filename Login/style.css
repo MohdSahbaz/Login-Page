@@ -84,3 +84,7 @@ form p{
     cursor: pointer;
     margin-top: 8px;
 }
+.signup-btn a{
+    text-decoration: none;
+    color: white;
+}
