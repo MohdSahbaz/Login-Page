@@ -18,7 +18,7 @@ style.css: Stylesheet for both pages
 
 # Usage:
 
-Clone the repository: git clone https://github.com/your-username/Practice-1-Authentication.git
+Clone the repository: git clone https://github.com/MohdSahbaz/Login-Sign-Up-Page.git
 Open the index.html and signup.html files in your browser to view the login and signup pages, respectively.
 
 Feel free to explore, modify, and enhance this authentication system as needed for your projects. If you find any issues or have suggestions, please open an issue or create a pull request.
