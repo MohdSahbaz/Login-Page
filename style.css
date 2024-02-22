@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(1, 43, 53);
+}
+.login-form{
+    background: wheat;
+    border-radius: 1rem;
+    padding: 70px;
+}
+form h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+form p{
+    font-size: 1rem;
+}
+.username p, .userpassword p{
+    margin-bottom: 10px;
+}
+.username i, .userpassword i{
+    font-size: 30px;
+    opacity: 0.7;
+    color: rgb(0, 69, 92);
+}
+.username input, .userpassword input{
+    font-size: 20px;
+    padding: 7px;
+    outline: none;
+    border: none;
+    background: inherit;
+}
+.username, .userpassword{
+    border-bottom: 2px solid;
+    margin-top: 25px;
+}
+.forget-password{
+    text-align: end;
+    margin-top: 10px;
+}
+.login-btn{
+    font-size: 1.5rem;
+    width: 100%;
+    border-radius: 2rem;
+    border: none;
+    background: linear-gradient(rgb(3, 68, 82), rgb(7, 109, 72));
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.signup-form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signup-form p{
+    text-align: center;
+    margin-top: 10px;
+}
+.signup-form i{
+    cursor: pointer;
+    margin: 5px 10px 10px 10px;;
+}
+.signup-btn{
+    font-size: 1rem;
+    width: 50%;
+    border-radius: 2rem;
+    border: none;
+    background: linear-gradient(rgb(7, 109, 72), rgb(3, 68, 82));
+    color: white;
+    padding: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
