@@ -3,34 +3,40 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+    background: rgb(1, 43, 53);
 }
 .container{
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(1, 43, 53);
 }
 .login-form{
     background: wheat;
     border-radius: 1rem;
     padding: 60px;
 }
+.login-form form{
+    background: wheat;
+}
 form h1{
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 30px;
+    background: wheat;
 }
 form p{
     font-size: 0.8rem;
+    background: wheat;
 }
 .username p, .userpassword p{
     margin-bottom: 8px;
+    background: wheat;
 }
 .username i, .userpassword i{
     font-size: 20px;
     opacity: 0.7;
     color: rgb(0, 69, 92);
+    background: wheat;
 }
 .username input, .userpassword input{
     font-size: 15px;
@@ -38,14 +44,17 @@ form p{
     outline: none;
     border: none;
     background: inherit;
+    background: wheat;
 }
 .username, .userpassword{
     border-bottom: 2px solid;
     margin-top: 15px;
+    background: wheat;
 }
 .forget-password{
     text-align: end;
     margin-top: 8px;
+    background: wheat;
 }
 .login-btn{
     font-size: 1rem;
@@ -64,14 +73,17 @@ form p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: wheat;
 }
 .signup-form p{
     text-align: center;
+    background: wheat;
     margin-top: 8px;
 }
 .signup-form i{
     cursor: pointer;
-    margin: 5px 10px 10px 10px;;
+    margin: 5px 10px 10px 10px;
+    background: wheat;
 }
 .signup-btn{
     font-size: 1rem;
@@ -87,4 +99,5 @@ form p{
 .signup-btn a{
     text-decoration: none;
     color: white;
+    background: inherit;
 }
